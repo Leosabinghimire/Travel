@@ -1,0 +1,63 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.625rem 1.25rem;
+  background-color: #f8f8f8;
+  border-radius: 3.125rem;
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-center {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.navbar-button {
+  background: none;
+  border: none;
+  padding: 0.625rem 0.9375rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-button .icon {
+  margin-right: 0.3125rem;
+
+}
+
+.navbar-button.login {
+  color: #000;
+}
+
+.navbar-button.signup {
+  color: rgba(11, 10, 10, 0.855);
+  background-color: #ebeeee;
+  border-radius: 0.625rem;
+
+}
+
+.navbar-logo {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+
+/* px to rem */
+/* 8px = 0.5rem
+10px = 0.625rem
+12px = 0.75rem
+14px = 0.875rem
+16px = 1rem
+20px = 1.25rem
+24px = 1.5rem
+32px = 2rem  */

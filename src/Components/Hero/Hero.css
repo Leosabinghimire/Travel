@@ -1,0 +1,141 @@
+.hero {
+  width: 100%;
+  min-height: 70vh;
+  height: 24rem;
+  background-image: url('../../assests/header.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3.125rem;
+  top: 0.2rem;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 3.125rem;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.hero h2 {
+  font-size: 3.75rem;
+  margin-bottom: 1rem;
+  letter-spacing: 1rem;
+}
+
+.hero p {
+  font-weight: 500;
+}
+
+/* Form */
+
+.search-form {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-top: -5rem;
+  position: relative;
+  z-index: 2;
+  max-width: 80rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-tabs {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.form-tabs button {
+  flex: 1;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: #e5e7eb;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.form-tabs button.active {
+  background-color: #22c55e;
+  color: white;
+}
+
+.icon {
+  margin-right: 0.3125rem;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid: 1rem;
+  gap: 1rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+  color: #4b5563;
+}
+
+input,
+select {
+  padding: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+}
+
+input,
+select,
+option .defaultValue {
+  font-size: 1rem;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.promo-btn {
+  background: none;
+  border: none;
+  color: #07100a;
+  cursor: pointer;
+}
+
+.search-btn {
+  background-color: #22c55e;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
