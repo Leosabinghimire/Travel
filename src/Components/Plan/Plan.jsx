@@ -1,12 +1,12 @@
 import React from "react";
 import "./plan.css";
-import turkey from "../../assests/Turkey.jpg";
-import france from "../../assests/france.jpg";
-import japan from "../../assests/japan.jpg";
-import usa from "../../assests/us.jpg";
-import austraila from "../../assests/austraila.jpg";
-import azerbaijan from "../../assests/azerbaijan.jpg";
-import maldives from "../../assests/maldives.jpg";
+import turkey from "../../assets/Turkey.jpg";
+import france from "../../assets/france.jpg";
+import japan from "../../assets/japan.jpg";
+import usa from "../../assets/us.jpg";
+import austraila from "../../assets/austraila.jpg";
+import azerbaijan from "../../assets/azerbaijan.jpg";
+import maldives from "../../assets/maldives.jpg";
 
 const Plan = () => {
   const items = [
