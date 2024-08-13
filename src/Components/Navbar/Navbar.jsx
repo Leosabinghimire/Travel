@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../assests/travel logo.png";
+import logo from "../../assets/travel logo.png";
 import { FaHotel, FaPlane } from "react-icons/fa";
 
 function Navbar() {
