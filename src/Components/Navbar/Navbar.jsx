@@ -3,7 +3,7 @@ import "./Navbar.css";
 import logo from "../../assets/travel logo.png";
 import { FaHotel, FaPlane } from "react-icons/fa";
 
-function Navbar() {
+function Navbar({ toggleModal, isLogin }) {
   return (
     <nav className="navbar">
       <div className="navbar-left">
@@ -20,8 +20,18 @@ function Navbar() {
       </div>
 
       <div className="navbar-right">
-        <button className="navbar-button login">Login</button>
-        <button className="navbar-button signup">Sign up</button>
+        <button
+          onClick={() => toggleModal(false)}
+          className="navbar-button login"
+        >
+          Login
+        </button>
+        <button
+          onClick={() => toggleModal(true)}
+          className="navbar-button signup"
+        >
+          Signup
+        </button>
       </div>
     </nav>
   );

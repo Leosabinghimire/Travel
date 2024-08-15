@@ -55,36 +55,6 @@ const Plan = () => {
       title: "male, Maldives",
       subtitle: "Flights · Hotels · Activities",
     },
-    {
-      image: maldives,
-      title: "male, Maldives",
-      subtitle: "Flights · Hotels · Activities",
-    },
-    {
-      image: "/api/placeholder/64/64",
-      title: "New York, USA",
-      subtitle: "Flights · Hotels · Activities",
-    },
-    {
-      image: "/api/placeholder/64/64",
-      title: "New York, USA",
-      subtitle: "Flights · Hotels · Activities",
-    },
-    {
-      image: "/api/placeholder/64/64",
-      title: "New York, USA",
-      subtitle: "Flights · Hotels · Activities",
-    },
-    {
-      image: "/api/placeholder/64/64",
-      title: "New York, USA",
-      subtitle: "Flights · Hotels · Activities",
-    },
-    {
-      image: "/api/placeholder/64/64",
-      title: "New York, USA",
-      subtitle: "Flights · Hotels · Activities",
-    },
   ];
 
   return (
@@ -110,6 +80,7 @@ const Plan = () => {
             </div>
           </div>
         ))}
+        <button className="btn">See More</button>
       </div>
     </section>
   );
